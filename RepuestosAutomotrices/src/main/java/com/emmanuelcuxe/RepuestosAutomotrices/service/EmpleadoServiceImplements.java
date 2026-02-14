@@ -2,9 +2,11 @@ package com.emmanuelcuxe.RepuestosAutomotrices.service;
 
 import com.emmanuelcuxe.RepuestosAutomotrices.entity.Empleado;
 import com.emmanuelcuxe.RepuestosAutomotrices.repository.EmpleadoRepository;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+@Service
 public class EmpleadoServiceImplements implements EmpleadoService {
     private final EmpleadoRepository empleadoRepository;
 
